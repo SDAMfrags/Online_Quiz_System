@@ -39,3 +39,16 @@ body {
     background-color: gray;
     padding: 15px 25px;
 }
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.email-link {
+    color: #ffffff;
+    text-decoration: none;
+}
