@@ -1,4 +1,41 @@
 body {
     background-color: #121212;
     color: #ffffff;
+    
+}
+.right {
+    display: flex;
+    gap: 30px;
+}
+.inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 40px;
+}
+.an {
+    text-decoration: none;
+    color: #ffffff;
+    border-left: 1px solid #ffffff;
+    padding-left: 30px;
+}
+.an:first-child {
+    border-left: none;
+}
+.center {
+    text-align: center;
+}
+.button {
+    background-color: #ffffff;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover {
+    background-color: gray;
+    padding: 15px 25px;
 }
