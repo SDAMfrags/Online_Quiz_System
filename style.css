@@ -19,6 +19,7 @@ body {
     color: #ffffff;
     border-left: 1px solid #ffffff;
     padding-left: 30px;
+    font-weight: bold;
 }
 .an:first-child {
     border-left: none;
